@@ -1,0 +1,8 @@
+node{
+    stage("clone"){
+        git  "https://github.com/david22118/MySoftwareDevops.git"
+    }
+    stage("run app"){
+        bat "python main.py"
+    }
+}
