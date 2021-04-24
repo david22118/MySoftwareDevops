@@ -3,3 +3,10 @@ def welcome():
 
 
 welcome()
+
+
+def click():
+    print("Click")
+
+
+click()
